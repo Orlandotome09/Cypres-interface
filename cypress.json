@@ -1,0 +1,8 @@
+{
+    "testFiles": "**/*.feature",
+    "viewportWidth": 1100,
+    "viewportHeight": 800,
+    "video": false,
+    "baseUrl": "https://qa-test.avenuecode.io/",
+    "chromeWebSecurity": false
+}

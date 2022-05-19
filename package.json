@@ -1,0 +1,31 @@
+{
+    "scripts": {
+        "cypress:run": "node_modules/.bin/cypress run",
+        "cypress:open": "node_modules/.bin/cypress open",
+        "test:chrome": "cypress run --browser chrome"
+    },
+    "cypress-cucumber-preprocessor": {
+        "step_definitions": "cypress/support/steps"
+    },
+    "keywords": [
+        "cypress.io",
+        "dynamic fixtures",
+        "fakerjs",
+        "frontend testing",
+        "javascript"
+    ],
+    "devDependencies": {
+        "@testing-library/cypress": "^7.0.5",
+        "cypress": "^9.6.0",
+        "cypress-cucumber-preprocessor": "^4.0.3",
+        "cypress-file-upload": "^5.0.4",
+        "cypress-graphql-mock": "^0.3.1",
+        "cypress-social-logins": "^1.11.3",
+        "cypress-xpath": "^1.6.2",
+        "faker": "^5.5.3"
+    },
+    "dependencies": {
+        "cypress-graphql-mock-network": "^0.3.0",
+        "faker-br": "^0.4.1"
+    }
+}
